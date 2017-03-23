@@ -1,0 +1,13 @@
+{
+  extends: ["daxko/react"],
+  env: {
+    "node": true,
+    "es6": true
+  },
+  parserOptions: {
+    sourceType: "module",
+    ecmaFeatures: {
+      "experimentalObjectRestSpread": true
+    }
+  }
+}
