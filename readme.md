@@ -27,6 +27,8 @@ function MyComponent() {
     </AutoText>
   );
 }
+
+export default MyComponent;
 ```
 
 ## API
@@ -36,6 +38,7 @@ function MyComponent() {
 * `maxHeight` (number) Max height of the container you wish to fill. _Default `100`_
 * `maxFontSize` (number) Maximum font size in pixels. _Default `20`_
 * `minFontSize` (number) Minimum font size in pixels. _Default `10`_
+* `onChange` (function) Optional function called when text size changes.
 
 ## License
 
