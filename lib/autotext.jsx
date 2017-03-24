@@ -12,7 +12,7 @@ class AutoText extends React.Component {
     this.autoText();
   }
 
-  componentDidUpdate({ prevChildren: children }) {
+  componentDidUpdate({ children: prevChildren }) {
     if(prevChildren !== this.props.children) {
       this.autoText();
     }
