@@ -1,6 +1,6 @@
 {
   "name": "react-auto-text",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0",
   "description": "A React component for autosizing text within a set container size",
   "main": "dist/autotext.jsx",
   "module": "lib/autotext.jsx",

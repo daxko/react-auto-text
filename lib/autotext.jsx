@@ -12,10 +12,8 @@ class AutoText extends React.Component {
     this.autoText();
   }
 
-  componentDidUpdate({ children: prevChildren }) {
-    if(prevChildren !== this.props.children) {
-      this.autoText();
-    }
+  componentDidUpdate() {
+    this.autoText();
   }
 
   setFontSize(fontSize) {
